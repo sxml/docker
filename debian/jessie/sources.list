@@ -1,0 +1,17 @@
+#-------------------------------------------------------------------------------------#
+#                             DEBIAN JESSIE REPOS IN JAPAN
+#-------------------------------------------------------------------------------------#
+
+###### Debian Main Repos
+deb ftp://debian-mirror.sakura.ne.jp/debian jessie main contrib non-free
+deb-src ftp://debian-mirror.sakura.ne.jp/debian jessie main contrib non-free
+
+###### Debian Update Repos
+deb ftp://debian-mirror.sakura.ne.jp/debian/ jessie-updates main contrib non-free
+deb-src ftp://debian-mirror.sakura.ne.jp/debian/ jessie-updates main contrib non-free
+deb http://security.debian.org/ jessie/updates main contrib non-free
+deb-src http://security.debian.org/ jessie/updates main contrib non-free
+
+###### Debian BackPort Repos
+deb ftp://debian-mirror.sakura.ne.jp/debian/ jessie-backports main contrib non-free
+deb-src ftp://debian-mirror.sakura.ne.jp/debian/ jessie-backports main contrib non-free

@@ -1,0 +1,17 @@
+#-------------------------------------------------------------------------------------#
+#                             DEBIAN WHEEZY REPOS IN JAPAN
+#-------------------------------------------------------------------------------------#
+
+###### Debian Main Repos
+deb ftp://debian-mirror.sakura.ne.jp/debian wheezy main contrib non-free
+deb-src ftp://debian-mirror.sakura.ne.jp/debian wheezy main contrib non-free
+
+###### Debian Update Repos
+deb ftp://debian-mirror.sakura.ne.jp/debian/ wheezy-updates main contrib non-free
+deb-src ftp://debian-mirror.sakura.ne.jp/debian/ wheezy-updates main contrib non-free
+deb http://security.debian.org/ wheezy/updates main contrib non-free
+deb-src http://security.debian.org/ wheezy/updates main contrib non-free
+
+###### Debian BackPort Repos
+deb ftp://debian-mirror.sakura.ne.jp/debian/ wheezy-backports main contrib non-free
+deb-src ftp://debian-mirror.sakura.ne.jp/debian/ wheezy-backports main contrib non-free
