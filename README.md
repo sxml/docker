@@ -4,4 +4,5 @@ Some Dockerfile of Docker Images.
 
 ### Repos
 
-- [debian](debian)
+- [CentOS](centos)
+- [Debian](debian)
