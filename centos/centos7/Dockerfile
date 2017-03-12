@@ -1,4 +1,4 @@
-FROM centos:latest
+FROM centos:centos7
 MAINTAINER Aurore <code@support.aurore.me>
 
 RUN yum -y update && yum clean all

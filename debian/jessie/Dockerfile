@@ -1,10 +1,7 @@
 FROM debian:jessie
 MAINTAINER Aurore <code@support.aurore.me>
 
-RUN apt-get update && \
-    apt-get -y install --no-install-recommends \
-        openssh-server && \
-    rm -rf /var/lib/apt/lists/*
+RUN apt-get update && apt-get -y install --no-install-recommends openssh-server && rm -rf /var/lib/apt/lists/*
 
 RUN mkdir /var/run/sshd
 
@@ -15,4 +12,4 @@ RUN echo 'root:admin' | chpasswd
 
 EXPOSE 22
 
-CMD ["/usr/sbin/sshd", "-D"]
+ENTRYPOINT ["/usr/sbin/sshd", "-D"]
